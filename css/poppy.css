@@ -1,0 +1,42 @@
+@font-face{
+    font-family: "poppy";
+    src: url("../fonts/FontsFree-Net-HelveticaNeueBold.ttf") format("truetype");
+  }
+.container {
+    display: block;
+  }
+  img{
+    width: 85%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    border: rgb(3, 1, 117) 2px solid;
+  }
+  header {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-family: "poppy";
+  }
+  .poppy {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: blue;
+    border: rgb(3, 1, 117) 2px solid;
+    border-radius: 5%;
+    font-family: "poppy";
+    text-align: center;
+  }
+  footer {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  body{
+    background-color: white;
+  }
