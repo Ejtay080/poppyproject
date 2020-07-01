@@ -4,10 +4,15 @@
   }
 .container {
     display: block;
+    background-color: gray;
+    
+  }
+  html{
+    background-color: gray;
   }
   img{
-    width: 85%;
-    height: auto;
+    height: 1fr;
+    width: 1fr;
     display: flex;
     margin: 0 auto;
     justify-content: center;
@@ -21,8 +26,8 @@
     font-family: "poppy";
   }
   .poppy {
-    grid-column-start: 2;
-    grid-column-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 4;
     background-color: blue;
@@ -30,12 +35,19 @@
     border-radius: 5%;
     font-family: "poppy";
     text-align: center;
+    width: 75%;
+    margin-left: 12.5%; 
   }
   footer {
     grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start: 4;
     grid-row-end: 5;
+  }
+  p{
+    font-size: 150%;
+    width: 90%;
+    margin-left: 35px;
   }
   body{
     background-color: white;
