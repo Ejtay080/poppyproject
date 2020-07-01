@@ -11,8 +11,7 @@
     background-color: gray;
   }
   img{
-    height: 1fr;
-    width: 1fr;
+    width: 30%;
     display: flex;
     margin: 0 auto;
     justify-content: center;
@@ -47,7 +46,7 @@
   p{
     font-size: 150%;
     width: 90%;
-    margin-left: 35px;
+    margin-left: 55px;
   }
   body{
     background-color: white;
